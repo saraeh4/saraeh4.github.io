@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="en">   
+
+<head>  
+    <link rel="stylesheet" href="styles.css" type="text/css">  
+     <!--link to styles.css-->
+     <link rel="stylesheet" href="styles.css" type="text/css">  
+        <!---link to google fonts--> 
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap" rel="stylesheet">  
+         <!--cdn link to slicknav css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"> 
+         <!--cdn link to jquery--> 
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+         <!---cdn link to slicknav jquery--> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>  
+
+        <script type="text/javascript"> 
+            $(document).ready(function () {  
+                $("#defnavmenu") .slicknav ( { pretendto: "#mobilemenu"}); 
+            }); 
+           </script>
+</head> 
+
+<body> 
+   <header>  
+
+    <!--empty nav element that rn is acting as a placeholder for the slicknav--> 
+    <nav id="mobilemenu"></nav>  
+           
+    <!---Default Menu -->  
+    <nav id="defnavmenu">
+        <ul> 
+            <li><a href="Updates.html">Updates</a></li>
+            <li><a href="index.html">Home</a></li> 
+            <li><a href="#">Wrecks</a>  
+                <ul> 
+                    <li><a href="#">By County</a></li>
+                    <li><a href="#">By Name</a></li>  
+                </ul>
+            </li> 
+            <li><a href="contact.html">Contact</a></li> 
+        </ul> 
+    </nav>  
+    <figure> <img id="smalllogo" src="shipwrecklogo.png" width="10%" height="10%" alt=shipwreck></figure>
+        <h1> Contact Information </h1> 
+        <p> Do you have photos of any vessels listed on this site? 
+            Email me a copy and I can add them to the site! Full credit
+        will be given for your findings! We encourage you to explore! </p> 
+<address> 
+    <a href="mailto:irishwrecksonline@yahoo.co.uk">Send us an Email</a> 
+    <p>Email:Irichwrecksonline@yahoo.co.uk </p>
+</address>   
+
+</header>  
+
+<left>  
+    <div class="formbox">   
+        <h3> Enter Email Here  </h3> 
+        <form action="/action_page.php">  
+            <label for="fullname"> Full Name:</label> 
+            <input type="text" id="fullname" name="fullname">          
+             <label for="email"> Email:</label>
+             <input type="text" id="email" name="email">
+             <input id=submit type="submit" value="submit">  
+        </form>
+     </div>  
+
+</left> 
+
+<right>   
+    <h1>Follow us for latest updates</h1>
+    <ul> 
+       <li> Instagram: </li> 
+       <li> Twitter:</li> 
+      <li> Facebook: </li>  
+    </ul>
+
+</right> 
+
+<footer> 
+    <figure> <img id="Copyright" src= "CopyrightLinePageBottom.gif" width="100%" height="30%"> </figure> 
+</footer>
+
+
+</body> 

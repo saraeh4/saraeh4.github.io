@@ -1,0 +1,73 @@
+<!DOCTYPE html> 
+<html lang="en">  
+
+<head> 
+     <!--link to styles.css-->
+     <link rel="stylesheet" href="styles.css" type="text/css">  
+        <!---link to google fonts--> 
+        <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&display=swap" rel="stylesheet">  
+         <!--cdn link to slicknav css-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css"> 
+         <!--cdn link to jquery--> 
+         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+         <!---cdn link to slicknav jquery--> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>  
+
+        <script type="text/javascript"> 
+            $(document).ready(function () {  
+                $("#defnavmenu") .slicknav ( { pretendto: "#mobilemenu"}); 
+            }); 
+           </script>
+</head> 
+
+<body> 
+    <header>  
+        <nav id="mobilemenu"></nav>  
+           
+        <!---Default Menu -->  
+        <nav id="defnavmenu">
+            <ul> 
+                <li><a href="Updates.html">Updates</a></li>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="#">Wrecks</a>  
+                    <ul> 
+                        <li><a href="#">By County</a></li>
+                        <li><a href="#">By Name</a></li>  
+                    </ul>
+                </li> 
+                <li><a href="contact.html">Contact</a></li> 
+            </ul> 
+        </nav>  
+        <figure> <img id="smalllogo" src="shipwrecklogo.png" width="10%" height="10%" alt=shipwreck></figure>
+        <h1>Latest Update News </h1> 
+        <p> At Irish Shipwrecks we try to keep our information as up to date as possible.
+            With the help of amazing divers that report new findings, as well as new discoveries of our own 
+        this page is for divers to receive the most updated locations of recovered Shipwrecks. </p> 
+    </header> 
+
+    <left> 
+        <h2> Dates of Reporting </h2> 
+        <ol> 
+            <li> <a>29-Aug-2019</a></li> 
+            <li><a>29-Aug-2019</a></li> 
+            <li><a> 21-Oct-2018</a></li> 
+            <li><a>07-Oct-2018</a></li> 
+        </ol>
+    </left> 
+
+    <right> 
+        <h2> Updated Information </h2> 
+        <ol> 
+            <li><a>Any wrecks that have Dive Details now have their photos, is any, included in the Dive Details text</a></li>
+            <li><a>Donegal North lists combined into one list, same for Donegal South, Co. Antrim, Co. Clare, Co. Kerry, and Co. Louth.
+            </a></li>  
+            <li><a> 	"U2506", off Malin Head, North Donegal - new wreck details and new photo added.</a></li> 
+            <li><a>	"S.S. Lodaner", off South Arklow Lightship, Co. Wicklow- new wreck added (including photo) to list courtesy Karen Trott. </a></li> 
+
+        </ol>
+    </right> 
+
+    <footer> 
+        <figure> <img id="Copyright" src= "CopyrightLinePageBottom.gif" width="100%" height="30%"> </figure> 
+    </footer>
+</body> 
